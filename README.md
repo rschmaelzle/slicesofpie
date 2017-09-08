@@ -1,6 +1,7 @@
 
 
-# __slicesofpie__ - notes, examples, tutorials and ideas for computational social sicnce with a strong Pythonic flavor!
+# __slicesofpie__ 
+## notes, examples, tutorials and ideas for computational social sicnce with a strong Pythonic flavor!
 
 
 ## Setup details
