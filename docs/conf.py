@@ -14,8 +14,6 @@
 # serve to show the default.
 
 
-import sphinx_bootstrap_theme
-
 import sys
 import os
 
@@ -130,7 +128,7 @@ html_theme = 'alabaster'
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-#html_logo = None
+html_logo = 'img/logo.png'
 
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
@@ -288,5 +286,9 @@ texinfo_documents = [
 
 
 # Activate the theme.
-html_theme = 'bootstrap'
-html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
+html_theme = 'haiku'
+html_theme_options = {
+	'full_logo': True
+
+}
+
